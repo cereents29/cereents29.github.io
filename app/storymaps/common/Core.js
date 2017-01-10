@@ -606,7 +606,7 @@ define(["lib-build/css!lib-app/bootstrap/css/bootstrap.min",
 
 			// Update URL for hosted apps so that when shared it will have the proper metadata on social medias
 			if ( document.location.pathname.match(/\/apps\/[a-zA-Z]+\/$/)
-					&& document.location.search.match(/^\?appid=/)
+					&& document.location.search.match(/^\?appid=0cc8dab7be874a93ab2fd854618722e3/)
 					&& (! has('ie') || has('ie') >= 10) ) {
 				History.replaceState({}, "", "index.html" + document.location.search + document.location.hash);
 			}

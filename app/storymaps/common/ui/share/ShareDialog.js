@@ -38,7 +38,7 @@ define([
 			});
 
 			container.find('.btn-print').click(function() {
-				var win = window.open('resources/tpl/viewer/print/print.html?appid=' + CommonHelper.getAppID(), '_blank');
+				var win = window.open('resources/tpl/viewer/print/print.html?appid=0cc8dab7be874a93ab2fd854618722e3' + CommonHelper.getAppID(), '_blank');
 				win.storyURL = container.find('.bitlylink').val();
 			});
 

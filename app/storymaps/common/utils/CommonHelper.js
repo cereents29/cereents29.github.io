@@ -248,7 +248,7 @@ define(["dojo/cookie",
 				return document.location.protocol
 					+ '//' + document.location.host
 					+ document.location.pathname
-					+ '?appid=' + app.data.getWebAppItem().id;
+					+ '?appid=0cc8dab7be874a93ab2fd854618722e3' + app.data.getWebAppItem().id;
 			},
 			getWebmapViewerLinkFromSharingURL: function(sharingUrl)
 			{
