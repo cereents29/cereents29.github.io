@@ -53,7 +53,7 @@ app.cfg = {
 			id: "float",
 			thumbnail: "resources/tpl/builder/icons/builder-layout-float.png",
 			liveApp: "http://links.esri.com/storymaps/map_journal_example_floating_panel",
-			sizes: { small: '25%', medium: '35%', large: '45%' },
+			sizes: { small: '25%', medium: '30%', large: '45%' },
 			positions: ["right", "left"],
 			themes: [
 				{name: "float-default-1", themeMajor: "black", dotNav: "#383838", panel: "#383838", media: "#FFFFFF", text: "#FFFFFF", textLink: "#DDD", softText: "#FFF",    softBtn: "#AAA", esriLogo: "white"},
