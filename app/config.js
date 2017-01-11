@@ -56,7 +56,7 @@ app.cfg = {
 			sizes: { small: '25%', medium: '35%', large: '45%' },
 			positions: ["right", "left"],
 			themes: [
-				{name: "float-default-1", themeMajor: "black", dotNav: "#383838", panel: rgb(100,100,100), media: "#FFFFFF", text: "#FFFFFF", textLink: "#DDD", softText: "#FFF",    softBtn: "#AAA", esriLogo: "white"},
+				{name: "float-default-1", themeMajor: "black", dotNav: "#383838", panel: "383838", media: "#FFFFFF", text: "#FFFFFF", textLink: "#DDD", softText: "#FFF",    softBtn: "#AAA", esriLogo: "white"},
 				{name: "float-default-2", themeMajor: "white", dotNav: "#FFFFFF", panel: "#FFFFFF", media: "#EEEEEE", text: "#000000", textLink: "#555", softText: "#c0c0c0", softBtn: "#737373", esriLogo: "black", panelOpa: 0.95, dotNavActive: "#000"}
 			]
 		}
